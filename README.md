@@ -19,10 +19,10 @@ const faceAPI = require('mt-face-api');
 var photo = new faceAPI("YOUR SECRET KEY");
 
 /***
- * Ex: Detect face in this photo: https://secure.gravatar.com/avatar/92d8de5bc1aae1250a02b1f37b92751b
+ * Ex: Detect face in this photo: http://luonggiaviet.com/Image/Editor/Img/DanhGia/Phim/Ngoc%20Ha/You%20are%20the%20apple%20of%20my%20eye/You-are-the-apple-of-my-eye2.jpg
  */
-face.api('detect', 'POST', {}, {
-  url: 'https://secure.gravatar.com/avatar/92d8de5bc1aae1250a02b1f37b92751b'
+photo.api('detect', 'POST', {}, {
+  url: 'http://luonggiaviet.com/Image/Editor/Img/DanhGia/Phim/Ngoc%20Ha/You%20are%20the%20apple%20of%20my%20eye/You-are-the-apple-of-my-eye2.jpg'
 }, function(error, res, body) {
   return console.log(body);
 });
