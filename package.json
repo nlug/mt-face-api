@@ -1,0 +1,23 @@
+{
+  "name": "mt-face-api",
+  "version": "1.0.0",
+  "description": "Detect face, find similar,... using Microsoft Cognitive Services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "face",
+    "detect",
+    "Face",
+    "Api",
+    "cognitive",
+    "service",
+    "projectoxford"
+  ],
+  "author": "Minh Thanh",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.72.0"
+  }
+}
